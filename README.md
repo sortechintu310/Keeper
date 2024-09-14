@@ -51,4 +51,3 @@ This project is open-source and available under the [MIT License](https://openso
 
 ---
 
-This gives a brief overview of your project and explains how others can get it running.
