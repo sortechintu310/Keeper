@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-family: "Montserrat", sans-serif;
+
+}
+main{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+nav{
+  background-color: rgb(255, 177, 31);
+  color: white;
+  padding: 10px 20px;
+  height: 10vh;
+}
+nav h1{
+  font-size: 2.5rem;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+.notes{
+  height: 80vh;
+  padding: 10px 20px;
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  gap: 1rem;
+  overflow-y: scroll;
+}
+.inputfield{
+  padding: 15px 20px;
+  width: fit-content;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px gray;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 20px auto;
+  font-family: "Montserrat", sans-serif;
+}
+.inputfield .closebtn{
+  align-self: flex-end;
+}
+.inputfield h1{
+  color: goldenrod;
+}
+main .addbtn,.inputfield button{
+  padding: 10px 20px;
+  font-weight: bolder;
+  color: white;
+  border: none;
+  background-color: gold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform .3s ease;
+}
+.inputfield button:hover{
+  transform: scale(1.1);
+}
+.inputfield input{
+  padding: 10px 20px;
+  border: 2px solid rgb(252, 207, 124);
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif !important;
+}
+.inputfield input:focus{
+  outline: none;
+}
+.note{
+  text-align: center;
+  padding: 10px 15px;
+  width: fit-content;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px gray;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  height: fit-content;
+
+}
+.footer{
+  background-color: whitesmoke;
+  color: grey;
+  margin: auto;
+  padding: 5px;
+}
+.note button{
+  color: rgb(255, 177, 31);
+  font-weight: bolder;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+main .addbtn{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
