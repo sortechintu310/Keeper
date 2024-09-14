@@ -6,6 +6,8 @@ Here's a simple README file for your Keeper project:
 
 **Keeper** is a small frontend clone of Google Keep Notes built using **React**. The app allows users to add new notes, view them, and delete them when no longer needed. It's a lightweight notes management app with a clean user interface, mimicking the core functionality of Google Keep.
 
+## Live link: https://keeperapp-sortechintu310.netlify.app
+
 ## Features
 - Add new notes with ease.
 - Delete notes once you're done with them.
